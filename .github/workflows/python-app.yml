@@ -26,7 +26,7 @@ jobs:
         pip install sigal
     - name: build
       run: |
-        sigal build
+        sigal build pics
         
     - name: Commit files
       run: |
